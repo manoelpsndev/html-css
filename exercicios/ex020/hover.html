@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+    div:hover{ /* Quando passar o mouse na div, ela deve ficar vermelha*/
+            color: red;
+        }
+
+        div > p{ /* o sinal de > indica que estamos mechendo em um parágrafo que é filho da div, ou seja, que está dentro da div.*/
+            display: none; /* O parágrafo que está dentro da div, quero que não apareça*/
+        }
+
+        div:hover > p{ /* e quando eu passar o mouse encima da div, eu quero que esse parágrafo apareça.*/
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto Escondido</p>
+</div>
+<p>fim do exemplo</p>
+    
+</body>
+</html>

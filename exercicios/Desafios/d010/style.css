@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'android';
+    src: url('fontes/idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(21, 156, 21), rgb(39, 204, 17));
+    text-align: center;
+    color: white;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+li{
+    display: inline;
+    margin: 5px;
+    text-align: left;
+    margin-top: 10px;
+}
+   
